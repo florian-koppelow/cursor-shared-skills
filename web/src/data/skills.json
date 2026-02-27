@@ -81,6 +81,78 @@
       "path": "skills/animation/vantajs"
     },
     {
+      "id": "design-lab",
+      "name": "design-lab",
+      "category": "design",
+      "group": "other",
+      "description": "Interactive design exploration workflow: conduct interviews, generate variants, and refine UI designs through feedback.",
+      "path": "skills/design/design-lab"
+    },
+    {
+      "id": "fixing-metadata",
+      "name": "fixing-metadata",
+      "category": "design",
+      "group": "other",
+      "description": ">",
+      "path": "skills/design/fixing-metadata"
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "category": "design",
+      "group": "other",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "path": "skills/design/frontend-design"
+    },
+    {
+      "id": "interaction-design",
+      "name": "interaction-design",
+      "category": "design",
+      "group": "other",
+      "description": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.",
+      "path": "skills/design/interaction-design"
+    },
+    {
+      "id": "interface-design",
+      "name": "interface-design",
+      "category": "design",
+      "group": "other",
+      "description": "Specialized skill for interface design: dashboards, admin panels, and SaaS apps. Focused on craft and consistency.",
+      "path": "skills/design/interface-design"
+    },
+    {
+      "id": "responsive-design",
+      "name": "responsive-design",
+      "category": "design",
+      "group": "other",
+      "description": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.",
+      "path": "skills/design/responsive-design"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "ui-ux-pro-max",
+      "category": "design",
+      "group": "other",
+      "description": "Comprehensive UI/UX design intelligence with 50+ styles, 97 palettes, and 9 technology stacks for building professional interfaces.",
+      "path": "skills/design/ui-ux-pro-max"
+    },
+    {
+      "id": "web-design-guidelines",
+      "name": "web-design-guidelines",
+      "category": "design",
+      "group": "other",
+      "description": "Review UI code for Vercel Web Interface Guidelines compliance. Audit accessibility, forms, animation, typography, performance, navigation, and interaction patterns.",
+      "path": "skills/design/web-design-guidelines"
+    },
+    {
+      "id": "web-design-reviewer",
+      "name": "web-design-reviewer",
+      "category": "design",
+      "group": "other",
+      "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like \"review website design\", \"check the UI\", \"fix the layout\", \"find design problems\". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.",
+      "path": "skills/design/web-design-reviewer"
+    },
+    {
       "id": "design-system",
       "name": "design-system",
       "category": "design-systems",
@@ -335,78 +407,6 @@
       "group": "design",
       "description": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
       "path": "skills/tailwind/tailwind-design-system"
-    },
-    {
-      "id": "frontend-design",
-      "name": "frontend-design",
-      "category": "ui",
-      "group": "design",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
-      "path": "skills/ui/frontend-design"
-    },
-    {
-      "id": "interface-design",
-      "name": "interface-design",
-      "category": "ui",
-      "group": "design",
-      "description": "Specialized skill for interface design: dashboards, admin panels, and SaaS apps. Focused on craft and consistency.",
-      "path": "skills/ui/interface-design"
-    },
-    {
-      "id": "ui-ux-pro-max",
-      "name": "ui-ux-pro-max",
-      "category": "ui",
-      "group": "design",
-      "description": "Comprehensive UI/UX design intelligence with 50+ styles, 97 palettes, and 9 technology stacks for building professional interfaces.",
-      "path": "skills/ui/ui-ux-pro-max"
-    },
-    {
-      "id": "design-lab",
-      "name": "design-lab",
-      "category": "ux",
-      "group": "design",
-      "description": "Interactive design exploration workflow: conduct interviews, generate variants, and refine UI designs through feedback.",
-      "path": "skills/ux/design-lab"
-    },
-    {
-      "id": "interaction-design",
-      "name": "interaction-design",
-      "category": "ux",
-      "group": "design",
-      "description": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.",
-      "path": "skills/ux/interaction-design"
-    },
-    {
-      "id": "fixing-metadata",
-      "name": "fixing-metadata",
-      "category": "webdesign",
-      "group": "design",
-      "description": ">",
-      "path": "skills/webdesign/fixing-metadata"
-    },
-    {
-      "id": "responsive-design",
-      "name": "responsive-design",
-      "category": "webdesign",
-      "group": "design",
-      "description": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.",
-      "path": "skills/webdesign/responsive-design"
-    },
-    {
-      "id": "web-design-guidelines",
-      "name": "web-design-guidelines",
-      "category": "webdesign",
-      "group": "design",
-      "description": "Review UI code for Vercel Web Interface Guidelines compliance. Audit accessibility, forms, animation, typography, performance, navigation, and interaction patterns.",
-      "path": "skills/webdesign/web-design-guidelines"
-    },
-    {
-      "id": "web-design-reviewer",
-      "name": "web-design-reviewer",
-      "category": "webdesign",
-      "group": "design",
-      "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like \"review website design\", \"check the UI\", \"fix the layout\", \"find design problems\". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.",
-      "path": "skills/webdesign/web-design-reviewer"
     },
     {
       "id": "wordpress-router",
