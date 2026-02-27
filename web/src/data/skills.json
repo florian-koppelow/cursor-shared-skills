@@ -257,6 +257,14 @@
       "path": "skills/marketing/analytics-tracking"
     },
     {
+      "id": "landing-page",
+      "name": "landing-page",
+      "category": "marketing",
+      "group": "other",
+      "description": "Use when designing or rewriting a high-converting landing page (single-offer page) for SaaS/apps/services. Covers structure, layout patterns, conversion strategies, copywriting, SEO/AEO, and common pitfalls.",
+      "path": "skills/marketing/landing-page"
+    },
+    {
       "id": "marketing-psychology",
       "name": "marketing-psychology",
       "category": "marketing",
