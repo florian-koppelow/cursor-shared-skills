@@ -27,6 +27,7 @@ const groupColors: Record<string, string> = {
 const categoryLabels: Record<string, string> = {
   animation: "Animation",
   copywriting: "Copywriting",
+  marketing: "Marketing",
   tailwind: "Tailwind",
   ux: "UX",
   ui: "UI",
