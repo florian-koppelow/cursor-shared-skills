@@ -91,8 +91,8 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <img 
                 src="/logo.svg" 
-                alt="Berlin Bytes" 
-                className="h-8 w-auto"
+                alt="Upskill Your Agent" 
+                className="h-12 w-auto"
               />
               <div>
                 <h1 className="text-2xl font-bold tracking-tight">Upskill Your Agent</h1>
