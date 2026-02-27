@@ -333,7 +333,7 @@
       "name": "interaction-design",
       "category": "ux",
       "group": "design",
-      "description": "Design and implement microinteractions, motion design, transitions, and user feedback patterns for delightful user experiences.",
+      "description": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.",
       "path": "skills/ux/interaction-design"
     },
     {

@@ -1,6 +1,6 @@
 ---
 name: interaction-design
-description: Design and implement microinteractions, motion design, transitions, and user feedback patterns for delightful user experiences.
+description: Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.
 ---
 
 # Interaction Design
@@ -9,14 +9,14 @@ Create engaging, intuitive interactions through motion, feedback, and thoughtful
 
 ## When to Use This Skill
 
-- Designing hover and focus states
-- Adding scroll-triggered animations
-- Implementing drag-and-drop interfaces
-- Building notification and toast systems
-- Creating gesture-based interactions
-- Designing loading states and skeleton screens
-- Implementing smooth page and component transitions
 - Adding microinteractions to enhance user feedback
+- Implementing smooth page and component transitions
+- Designing loading states and skeleton screens
+- Creating gesture-based interactions
+- Building notification and toast systems
+- Implementing drag-and-drop interfaces
+- Adding scroll-triggered animations
+- Designing hover and focus states
 
 ## Core Principles
 
@@ -24,19 +24,19 @@ Create engaging, intuitive interactions through motion, feedback, and thoughtful
 
 Motion should communicate, not decorate:
 
-- Continuity: Maintain context during transitions
-- Focus: Direct attention to important changes
-- Orientation: Show where elements come from/go to
-- Feedback: Confirm user actions occurred
+- **Feedback**: Confirm user actions occurred
+- **Orientation**: Show where elements come from/go to
+- **Focus**: Direct attention to important changes
+- **Continuity**: Maintain context during transitions
 
 ### 2. Timing Guidelines
 
-| Duration | Use Case |
-| --- | --- |
-| 100-150ms | Micro-feedback (hovers, clicks) |
-| 200-300ms | Small transitions (toggles, dropdowns) |
+| Duration  | Use Case                                  |
+| --------- | ----------------------------------------- |
+| 100-150ms | Micro-feedback (hovers, clicks)           |
+| 200-300ms | Small transitions (toggles, dropdowns)    |
 | 300-500ms | Medium transitions (modals, page changes) |
-| 500ms+ | Complex choreographed animations |
+| 500ms+    | Complex choreographed animations          |
 
 ### 3. Easing Functions
 
@@ -72,7 +72,7 @@ export function InteractiveButton({ children, onClick }) {
 
 ### 1. Loading States
 
-Skeleton Screens: Preserve layout while loading
+**Skeleton Screens**: Preserve layout while loading
 
 ```tsx
 function CardSkeleton() {
@@ -86,7 +86,7 @@ function CardSkeleton() {
 }
 ```
 
-Progress Indicators: Show determinate progress
+**Progress Indicators**: Show determinate progress
 
 ```tsx
 function ProgressBar({ progress }: { progress: number }) {
@@ -105,7 +105,7 @@ function ProgressBar({ progress }: { progress: number }) {
 
 ### 2. State Transitions
 
-Toggle with smooth transition:
+**Toggle with smooth transition**:
 
 ```tsx
 function Toggle({ checked, onChange }) {
@@ -131,7 +131,7 @@ function Toggle({ checked, onChange }) {
 
 ### 3. Page Transitions
 
-Framer Motion layout animations:
+**Framer Motion layout animations**:
 
 ```tsx
 import { AnimatePresence, motion } from "framer-motion";
@@ -155,7 +155,7 @@ function PageTransition({ children, key }) {
 
 ### 4. Feedback Patterns
 
-Ripple effect on click:
+**Ripple effect on click**:
 
 ```tsx
 function RippleButton({ children, onClick }) {
@@ -192,7 +192,7 @@ function RippleButton({ children, onClick }) {
 
 ### 5. Gesture Interactions
 
-Swipe to dismiss:
+**Swipe to dismiss**:
 
 ```tsx
 function SwipeCard({ children, onDismiss }) {
@@ -303,25 +303,25 @@ function AnimatedComponent() {
 
 ## Best Practices
 
-1. Test on Devices: Performance varies significantly
-2. Progressive Enhancement: Work without JS animations
-3. Interruptible: Allow users to cancel long animations
-4. Natural Physics: Prefer spring animations over linear
-5. Consistent Timing: Use a timing scale across the app
-6. Reduce Motion Support: Always respect `prefers-reduced-motion`
-7. Performance First: Use `transform` and `opacity` for smooth 60fps
+1. **Performance First**: Use `transform` and `opacity` for smooth 60fps
+2. **Reduce Motion Support**: Always respect `prefers-reduced-motion`
+3. **Consistent Timing**: Use a timing scale across the app
+4. **Natural Physics**: Prefer spring animations over linear
+5. **Interruptible**: Allow users to cancel long animations
+6. **Progressive Enhancement**: Work without JS animations
+7. **Test on Devices**: Performance varies significantly
 
 ## Common Issues
 
-- Flash of Content: Use `will-change` sparingly for optimization
-- Memory Leaks: Clean up animation listeners on unmount
-- Blocking Interactions: Never prevent user input during animations
-- Over-animation: Too much motion causes fatigue
-- Janky Animations: Avoid animating `width`, `height`, `top`, `left`
+- **Janky Animations**: Avoid animating `width`, `height`, `top`, `left`
+- **Over-animation**: Too much motion causes fatigue
+- **Blocking Interactions**: Never prevent user input during animations
+- **Memory Leaks**: Clean up animation listeners on unmount
+- **Flash of Content**: Use `will-change` sparingly for optimization
 
 ## Resources
 
-- [GSAP Animation Library](https://greensock.com/gsap/)
-- [Material Design Motion](https://m3.material.io/styles/motion/overview)
-- [CSS Animation Guide](https://web.dev/animations-guide/)
 - [Framer Motion Documentation](https://www.framer.com/motion/)
+- [CSS Animation Guide](https://web.dev/animations-guide/)
+- [Material Design Motion](https://m3.material.io/styles/motion/overview)
+- [GSAP Animation Library](https://greensock.com/gsap/)
