@@ -25,6 +25,14 @@
       "path": "skills/design-systems/design-system"
     },
     {
+      "id": "explain-for-designers",
+      "name": "explain-for-designers",
+      "category": "design-systems",
+      "group": "design",
+      "description": "Explain actions, decisions, and questions in designer-friendly language. Use when a designer wants clear explanations of what the AI is doing and why.",
+      "path": "skills/design-systems/explain-for-designers"
+    },
+    {
       "id": "wpds",
       "name": "wpds",
       "category": "design-systems",
