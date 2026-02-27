@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run generate-skills && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-skills": "node scripts/generate-skills-data.mjs"
+    "generate-skills": "node scripts/generate-skills-data.mjs",
+    "prebuild:local": "npm run generate-skills"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
