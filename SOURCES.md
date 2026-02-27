@@ -30,17 +30,6 @@ This repository consolidates skills from multiple open-source projects. Below is
 
 ## Internal Sources
 
-### mobile-apps
-
-- **Repository**: Internal 1K5 mobile-apps monorepo
-- **License**: Proprietary
-
-**Skills included:**
-- `commit`, `create-pr`, `review-pr`, `wip-commit`, `create-issue`, `implement-issue`, `summarize-issue`, `deterministic-evaluation` → `skills/workflows/`
-- `figma-mcp-tools` → `skills/figma/`
-- `explain-for-designers` → `skills/design-systems/`
-- `write-tests`, `diagnose-ci-failures` → `skills/flutter/`
-
 ### wordpress-dev
 
 - **Repository**: Internal wordpress-dev repository

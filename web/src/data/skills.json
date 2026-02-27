@@ -25,14 +25,6 @@
       "path": "skills/design-systems/design-system"
     },
     {
-      "id": "explain-for-designers",
-      "name": "explain-for-designers",
-      "category": "design-systems",
-      "group": "design",
-      "description": "Explain actions, decisions, and questions in designer-friendly language. Use when a designer wants clear explanations of what the AI is doing and why.",
-      "path": "skills/design-systems/explain-for-designers"
-    },
-    {
       "id": "wpds",
       "name": "wpds",
       "category": "design-systems",
@@ -209,30 +201,6 @@
       "path": "skills/dev-process/user-input-protocol"
     },
     {
-      "id": "figma-mcp-tools",
-      "name": "figma-mcp-tools",
-      "category": "figma",
-      "group": "design",
-      "description": "No description available",
-      "path": "skills/figma/figma-mcp-tools"
-    },
-    {
-      "id": "diagnose-ci-failures",
-      "name": "diagnose-ci-failures",
-      "category": "flutter",
-      "group": "platform",
-      "description": "Diagnose and fix CI check failures efficiently. Use when PR checks fail and you need to identify root causes and replicate locally.",
-      "path": "skills/flutter/diagnose-ci-failures"
-    },
-    {
-      "id": "write-tests",
-      "name": "write-tests",
-      "category": "flutter",
-      "group": "platform",
-      "description": "Write Flutter/Dart tests following project conventions",
-      "path": "skills/flutter/write-tests"
-    },
-    {
       "id": "baseline-ui",
       "name": "baseline-ui",
       "category": "tailwind",
@@ -353,76 +321,12 @@
       "path": "skills/wordpress/wp-wpcli-and-ops"
     },
     {
-      "id": "commit",
-      "name": "commit",
-      "category": "workflows",
-      "group": "development",
-      "description": "Commit current work. ALWAYS use this skill when committing changes to the repository.",
-      "path": "skills/workflows/commit"
-    },
-    {
-      "id": "create-issue",
-      "name": "create-issue",
-      "category": "workflows",
-      "group": "development",
-      "description": "Create a new Linear issue (also called ticket) with structured context. Gathers team, description (What/Why/How to verify), priority, labels, assignee, and project. Use when the user asks to create a Linear issue, ticket, or task.",
-      "path": "skills/workflows/create-issue"
-    },
-    {
-      "id": "create-pr",
-      "name": "create-pr",
-      "category": "workflows",
-      "group": "development",
-      "description": "Push the current branch and create a Pull Request. Use when the user asks to create a PR, open a PR, or push and create a pull request.",
-      "path": "skills/workflows/create-pr"
-    },
-    {
-      "id": "deterministic-evaluation",
-      "name": "deterministic-evaluation",
-      "category": "workflows",
-      "group": "development",
-      "description": "Evaluate whether a proposed agent skill or AGENTS.md instruction should instead be a deterministic lint rule, CI pipeline check, or other automated enforcement. Use when creating, modifying, or reviewing agent skills and AI instructions.",
-      "path": "skills/workflows/deterministic-evaluation"
-    },
-    {
-      "id": "implement-issue",
-      "name": "implement-issue",
-      "category": "workflows",
-      "group": "development",
-      "description": "Implement a Linear issue (also called ticket) end-to-end. Fetches issue details, plans or implements changes, updates task progress in Linear, and creates a PR. Use when the user provides a Linear issue ID or asks to implement/work on a ticket.",
-      "path": "skills/workflows/implement-issue"
-    },
-    {
       "id": "pr-ship",
       "name": "pr-ship",
       "category": "workflows",
       "group": "development",
       "description": ">-",
       "path": "skills/workflows/pr-ship"
-    },
-    {
-      "id": "review-pr",
-      "name": "review-pr",
-      "category": "workflows",
-      "group": "development",
-      "description": "Gather PR context and review it against Linear issue (also called ticket) requirements. Use when the user asks to review a PR, validate an implementation against a ticket, or prepare for code review.",
-      "path": "skills/workflows/review-pr"
-    },
-    {
-      "id": "summarize-issue",
-      "name": "summarize-issue",
-      "category": "workflows",
-      "group": "development",
-      "description": "Summarize a Linear issue (also called ticket) for the current branch. Use when the user asks about a ticket, wants to see the current issue, or needs context for implementing features or reviewing code.",
-      "path": "skills/workflows/summarize-issue"
-    },
-    {
-      "id": "wip-commit",
-      "name": "wip-commit",
-      "category": "workflows",
-      "group": "development",
-      "description": "Create a work-in-progress commit. Use when the user wants to save intermediate progress without triggering CI.",
-      "path": "skills/workflows/wip-commit"
     }
   ],
   "categories": [
