@@ -88,16 +88,23 @@ export default function Home() {
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <div>
-              <h1 className="text-2xl font-bold tracking-tight">Cursor Shared Skills</h1>
-              <p className="text-muted-foreground">
-                A curated collection of {skills.length} AI agent skills
-              </p>
+            <div className="flex items-center gap-4">
+              <img 
+                src="/logo.svg" 
+                alt="Berlin Bytes" 
+                className="h-8 w-auto"
+              />
+              <div>
+                <h1 className="text-2xl font-bold tracking-tight">Upskill Your Agent</h1>
+                <p className="text-muted-foreground">
+                  A curated collection of {skills.length} AI agent skills
+                </p>
+              </div>
             </div>
             <div className="flex gap-2">
               <Button variant="outline" asChild>
                 <a
-                  href="https://github.com/florian-koppelow/cursor-shared-skills"
+                  href="https://github.com/florian-koppelow/upskill-your-agent"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -162,8 +169,8 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <code className="text-xs bg-muted p-2 rounded block overflow-x-auto">
-                  git clone https://github.com/florian-koppelow/cursor-shared-skills.git
-                  ~/cursor-shared-skills
+                  git clone https://github.com/florian-koppelow/upskill-your-agent.git
+                  ~/upskill-your-agent
                 </code>
               </CardContent>
             </Card>
@@ -209,7 +216,7 @@ export default function Home() {
                     <h4 className="font-medium">View source</h4>
                     <Button variant="outline" asChild>
                       <a
-                        href={`https://github.com/florian-koppelow/cursor-shared-skills/tree/main/${selectedSkill.path}`}
+                        href={`https://github.com/florian-koppelow/upskill-your-agent/tree/main/${selectedSkill.path}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

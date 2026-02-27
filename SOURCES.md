@@ -4,18 +4,30 @@ This repository consolidates skills from multiple open-source projects. Below is
 
 ## External Sources
 
-### ibelick/ui-skills
+### ibelick/ui-skills & ui-skills.com
 
 - **Repository**: https://github.com/ibelick/ui-skills
 - **Website**: https://ui-skills.com
-- **License**: MIT
+- **License**: MIT (and various from contributing authors)
 - **Last synced**: 2026-02-27
 
-**Skills included:**
+**Skills included (from GitHub repo):**
 - `baseline-ui` → `skills/tailwind/`
 - `fixing-accessibility` → `skills/accessibility/`
 - `fixing-metadata` → `skills/webdesign/`
 - `fixing-motion-performance` → `skills/animation/`
+
+**Skills included (from ui-skills.com aggregator):**
+- `12-principles-of-animation` → `skills/animation/` (source: raphaelsalaja/userinterface-wiki)
+- `canvas-design` → `skills/illustration/` (source: anthropics/skills)
+- `design-lab` → `skills/ux/` (source: 0xdesign/design-plugin)
+- `interaction-design` → `skills/ux/` (source: wshobson/agents)
+- `interface-design` → `skills/ui/` (source: Dammyjay93/interface-design)
+- `swiftui-ui-patterns` → `skills/swiftui/` (source: dimillian/skills)
+- `tailwind-css-patterns` → `skills/tailwind/` (source: giuseppe-trisciuoglio/developer-kit)
+- `ui-ux-pro-max` → `skills/ui/` (source: nextlevelbuilder/ui-ux-pro-max-skill)
+- `wcag-audit-patterns` → `skills/accessibility/` (source: wshobson/agents)
+- `web-design-guidelines` → `skills/webdesign/` (source: vercel-labs/agent-skills)
 
 ### jwilger/agent-skills
 

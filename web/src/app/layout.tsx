@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cursor Shared Skills",
+  title: "Upskill Your Agent",
   description: "A curated collection of AI agent skills for Cursor, organized by category for easy discovery and project-curated installation.",
 };
 

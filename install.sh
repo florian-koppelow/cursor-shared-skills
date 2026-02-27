@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Cursor Shared Skills Installer
+# Upskill Your Agent - Installer
 # Creates symlinks from a project's .cursor/skills/ to this shared repository
 
 set -e

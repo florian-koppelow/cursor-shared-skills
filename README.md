@@ -1,4 +1,4 @@
-# Cursor Shared Skills
+# Upskill Your Agent
 
 A curated collection of AI agent skills for Cursor, organized by category for easy discovery and project-curated installation.
 
@@ -6,10 +6,10 @@ A curated collection of AI agent skills for Cursor, organized by category for ea
 
 ```bash
 # Clone this repo
-git clone git@github.com:YOUR-ORG/cursor-shared-skills.git ~/cursor-shared-skills
+git clone git@github.com:YOUR-ORG/upskill-your-agent.git ~/upskill-your-agent
 
 # Install skills to a project
-cd ~/cursor-shared-skills
+cd ~/upskill-your-agent
 ./install.sh --project ~/my-project --category workflows
 
 # Or install specific skills
