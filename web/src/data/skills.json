@@ -1,0 +1,444 @@
+{
+  "skills": [
+    {
+      "id": "fixing-accessibility",
+      "name": "fixing-accessibility",
+      "category": "accessibility",
+      "group": "design",
+      "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+      "path": "skills/accessibility/fixing-accessibility"
+    },
+    {
+      "id": "fixing-motion-performance",
+      "name": "fixing-motion-performance",
+      "category": "animation",
+      "group": "design",
+      "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+      "path": "skills/animation/fixing-motion-performance"
+    },
+    {
+      "id": "design-system",
+      "name": "design-system",
+      "category": "design-systems",
+      "group": "design",
+      "description": ">-",
+      "path": "skills/design-systems/design-system"
+    },
+    {
+      "id": "explain-for-designers",
+      "name": "explain-for-designers",
+      "category": "design-systems",
+      "group": "design",
+      "description": "Explain actions, decisions, and questions in designer-friendly language. Use when a designer wants clear explanations of what the AI is doing and why.",
+      "path": "skills/design-systems/explain-for-designers"
+    },
+    {
+      "id": "wpds",
+      "name": "wpds",
+      "category": "design-systems",
+      "group": "design",
+      "description": "Use when building UIs leveraging the WordPress Design System (WPDS) and its components, tokens, patterns, etc.",
+      "path": "skills/design-systems/wpds"
+    },
+    {
+      "id": "agent-coordination",
+      "name": "agent-coordination",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/agent-coordination"
+    },
+    {
+      "id": "architecture-decisions",
+      "name": "architecture-decisions",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/architecture-decisions"
+    },
+    {
+      "id": "atomic-design",
+      "name": "atomic-design",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/atomic-design"
+    },
+    {
+      "id": "bootstrap",
+      "name": "bootstrap",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/bootstrap"
+    },
+    {
+      "id": "ci-integration",
+      "name": "ci-integration",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/ci-integration"
+    },
+    {
+      "id": "code-review",
+      "name": "code-review",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/code-review"
+    },
+    {
+      "id": "debugging-protocol",
+      "name": "debugging-protocol",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/debugging-protocol"
+    },
+    {
+      "id": "domain-modeling",
+      "name": "domain-modeling",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/domain-modeling"
+    },
+    {
+      "id": "ensemble-team",
+      "name": "ensemble-team",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">",
+      "path": "skills/dev-process/ensemble-team"
+    },
+    {
+      "id": "error-recovery",
+      "name": "error-recovery",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/error-recovery"
+    },
+    {
+      "id": "event-modeling",
+      "name": "event-modeling",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/event-modeling"
+    },
+    {
+      "id": "factory-review",
+      "name": "factory-review",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/factory-review"
+    },
+    {
+      "id": "memory-protocol",
+      "name": "memory-protocol",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/memory-protocol"
+    },
+    {
+      "id": "mutation-testing",
+      "name": "mutation-testing",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/mutation-testing"
+    },
+    {
+      "id": "pipeline",
+      "name": "pipeline",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/pipeline"
+    },
+    {
+      "id": "refactoring",
+      "name": "refactoring",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/refactoring"
+    },
+    {
+      "id": "session-reflection",
+      "name": "session-reflection",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/session-reflection"
+    },
+    {
+      "id": "task-management",
+      "name": "task-management",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/task-management"
+    },
+    {
+      "id": "tdd",
+      "name": "tdd",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/tdd"
+    },
+    {
+      "id": "ticket-triage",
+      "name": "ticket-triage",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">",
+      "path": "skills/dev-process/ticket-triage"
+    },
+    {
+      "id": "user-input-protocol",
+      "name": "user-input-protocol",
+      "category": "dev-process",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/dev-process/user-input-protocol"
+    },
+    {
+      "id": "figma-mcp-tools",
+      "name": "figma-mcp-tools",
+      "category": "figma",
+      "group": "design",
+      "description": "No description available",
+      "path": "skills/figma/figma-mcp-tools"
+    },
+    {
+      "id": "diagnose-ci-failures",
+      "name": "diagnose-ci-failures",
+      "category": "flutter",
+      "group": "platform",
+      "description": "Diagnose and fix CI check failures efficiently. Use when PR checks fail and you need to identify root causes and replicate locally.",
+      "path": "skills/flutter/diagnose-ci-failures"
+    },
+    {
+      "id": "write-tests",
+      "name": "write-tests",
+      "category": "flutter",
+      "group": "platform",
+      "description": "Write Flutter/Dart tests following project conventions",
+      "path": "skills/flutter/write-tests"
+    },
+    {
+      "id": "baseline-ui",
+      "name": "baseline-ui",
+      "category": "tailwind",
+      "group": "design",
+      "description": "Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency.",
+      "path": "skills/tailwind/baseline-ui"
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "category": "ui",
+      "group": "design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "path": "skills/ui/frontend-design"
+    },
+    {
+      "id": "fixing-metadata",
+      "name": "fixing-metadata",
+      "category": "webdesign",
+      "group": "design",
+      "description": ">",
+      "path": "skills/webdesign/fixing-metadata"
+    },
+    {
+      "id": "wordpress-router",
+      "name": "wordpress-router",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when the user asks about WordPress codebases (plugins, themes, block themes, Gutenberg blocks, WP core checkouts) and you need to quickly classify the repo and route to the correct workflow/skill (blocks, theme.json, REST API, WP-CLI, performance, security, testing, release packaging).",
+      "path": "skills/wordpress/wordpress-router"
+    },
+    {
+      "id": "wp-abilities-api",
+      "name": "wp-abilities-api",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when working with the WordPress Abilities API (wp_register_ability, wp_register_ability_category, /wp-json/wp-abilities/v1/*, @wordpress/abilities) including defining abilities, categories, meta, REST exposure, and permissions checks for clients.",
+      "path": "skills/wordpress/wp-abilities-api"
+    },
+    {
+      "id": "wp-block-development",
+      "name": "wp-block-development",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when developing WordPress (Gutenberg) blocks: block.json metadata, register_block_type(_from_metadata), attributes/serialization, supports, dynamic rendering (render.php/render_callback), deprecations/migrations, viewScript vs viewScriptModule, and @wordpress/scripts/@wordpress/create-block build and test workflows.",
+      "path": "skills/wordpress/wp-block-development"
+    },
+    {
+      "id": "wp-block-themes",
+      "name": "wp-block-themes",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when developing WordPress block themes: theme.json (global settings/styles), templates and template parts, patterns, style variations, and Site Editor troubleshooting (style hierarchy, overrides, caching).",
+      "path": "skills/wordpress/wp-block-themes"
+    },
+    {
+      "id": "wp-interactivity-api",
+      "name": "wp-interactivity-api",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when building or debugging WordPress Interactivity API features (data-wp-* directives, @wordpress/interactivity store/state/actions, block viewScriptModule integration, wp_interactivity_*()) including performance, hydration, and directive behavior.",
+      "path": "skills/wordpress/wp-interactivity-api"
+    },
+    {
+      "id": "wp-performance",
+      "name": "wp-performance",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when investigating or improving WordPress performance (backend-only agent): profiling and measurement (WP-CLI profile/doctor, Server-Timing, Query Monitor via REST headers), database/query optimization, autoloaded options, object caching, cron, HTTP API calls, and safe verification.",
+      "path": "skills/wordpress/wp-performance"
+    },
+    {
+      "id": "wp-phpstan",
+      "name": "wp-phpstan",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when configuring, running, or fixing PHPStan static analysis in WordPress projects (plugins/themes/sites): phpstan.neon setup, baselines, WordPress-specific typing, and handling third-party plugin classes.",
+      "path": "skills/wordpress/wp-phpstan"
+    },
+    {
+      "id": "wp-playground",
+      "name": "wp-playground",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use for WordPress Playground workflows: fast disposable WP instances in the browser or locally via @wp-playground/cli (server, run-blueprint, build-snapshot), auto-mounting plugins/themes, switching WP/PHP versions, blueprints, and debugging (Xdebug).",
+      "path": "skills/wordpress/wp-playground"
+    },
+    {
+      "id": "wp-plugin-development",
+      "name": "wp-plugin-development",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when developing WordPress plugins: architecture and hooks, activation/deactivation/uninstall, admin UI and Settings API, data storage, cron/tasks, security (nonces/capabilities/sanitization/escaping), and release packaging.",
+      "path": "skills/wordpress/wp-plugin-development"
+    },
+    {
+      "id": "wp-project-triage",
+      "name": "wp-project-triage",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when you need a deterministic inspection of a WordPress repository (plugin/theme/block theme/WP core/Gutenberg/full site) including tooling/tests/version hints, and a structured JSON report to guide workflows and guardrails.",
+      "path": "skills/wordpress/wp-project-triage"
+    },
+    {
+      "id": "wp-rest-api",
+      "name": "wp-rest-api",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when building, extending, or debugging WordPress REST API endpoints/routes: register_rest_route, WP_REST_Controller/controller classes, schema/argument validation, permission_callback/authentication, response shaping, register_rest_field/register_meta, or exposing CPTs/taxonomies via show_in_rest.",
+      "path": "skills/wordpress/wp-rest-api"
+    },
+    {
+      "id": "wp-wpcli-and-ops",
+      "name": "wp-wpcli-and-ops",
+      "category": "wordpress",
+      "group": "platform",
+      "description": "Use when working with WP-CLI (wp) for WordPress operations: safe search-replace, db export/import, plugin/theme/user/content management, cron, cache flushing, multisite, and scripting/automation with wp-cli.yml.",
+      "path": "skills/wordpress/wp-wpcli-and-ops"
+    },
+    {
+      "id": "commit",
+      "name": "commit",
+      "category": "workflows",
+      "group": "development",
+      "description": "Commit current work. ALWAYS use this skill when committing changes to the repository.",
+      "path": "skills/workflows/commit"
+    },
+    {
+      "id": "create-issue",
+      "name": "create-issue",
+      "category": "workflows",
+      "group": "development",
+      "description": "Create a new Linear issue (also called ticket) with structured context. Gathers team, description (What/Why/How to verify), priority, labels, assignee, and project. Use when the user asks to create a Linear issue, ticket, or task.",
+      "path": "skills/workflows/create-issue"
+    },
+    {
+      "id": "create-pr",
+      "name": "create-pr",
+      "category": "workflows",
+      "group": "development",
+      "description": "Push the current branch and create a Pull Request. Use when the user asks to create a PR, open a PR, or push and create a pull request.",
+      "path": "skills/workflows/create-pr"
+    },
+    {
+      "id": "deterministic-evaluation",
+      "name": "deterministic-evaluation",
+      "category": "workflows",
+      "group": "development",
+      "description": "Evaluate whether a proposed agent skill or AGENTS.md instruction should instead be a deterministic lint rule, CI pipeline check, or other automated enforcement. Use when creating, modifying, or reviewing agent skills and AI instructions.",
+      "path": "skills/workflows/deterministic-evaluation"
+    },
+    {
+      "id": "implement-issue",
+      "name": "implement-issue",
+      "category": "workflows",
+      "group": "development",
+      "description": "Implement a Linear issue (also called ticket) end-to-end. Fetches issue details, plans or implements changes, updates task progress in Linear, and creates a PR. Use when the user provides a Linear issue ID or asks to implement/work on a ticket.",
+      "path": "skills/workflows/implement-issue"
+    },
+    {
+      "id": "pr-ship",
+      "name": "pr-ship",
+      "category": "workflows",
+      "group": "development",
+      "description": ">-",
+      "path": "skills/workflows/pr-ship"
+    },
+    {
+      "id": "review-pr",
+      "name": "review-pr",
+      "category": "workflows",
+      "group": "development",
+      "description": "Gather PR context and review it against Linear issue (also called ticket) requirements. Use when the user asks to review a PR, validate an implementation against a ticket, or prepare for code review.",
+      "path": "skills/workflows/review-pr"
+    },
+    {
+      "id": "summarize-issue",
+      "name": "summarize-issue",
+      "category": "workflows",
+      "group": "development",
+      "description": "Summarize a Linear issue (also called ticket) for the current branch. Use when the user asks about a ticket, wants to see the current issue, or needs context for implementing features or reviewing code.",
+      "path": "skills/workflows/summarize-issue"
+    },
+    {
+      "id": "wip-commit",
+      "name": "wip-commit",
+      "category": "workflows",
+      "group": "development",
+      "description": "Create a work-in-progress commit. Use when the user wants to save intermediate progress without triggering CI.",
+      "path": "skills/workflows/wip-commit"
+    }
+  ],
+  "categories": [
+    "animation",
+    "tailwind",
+    "ux",
+    "ui",
+    "accessibility",
+    "design-systems",
+    "illustration",
+    "webdesign",
+    "figma",
+    "dev-process",
+    "workflows",
+    "wordpress",
+    "flutter",
+    "swiftui"
+  ]
+}
