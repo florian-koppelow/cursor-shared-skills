@@ -25,12 +25,36 @@
       "path": "skills/animation/12-principles-of-animation"
     },
     {
+      "id": "animation-systems",
+      "name": "animation-systems",
+      "category": "animation",
+      "group": "design",
+      "description": "Use when designing or implementing product-grade web motion like Stripe, Linear, Apple, and Vercel. Covers motion principles, easing/duration defaults, choreography patterns, scroll/hover interactions, performance, accessibility (reduced motion), and implementation guidance.",
+      "path": "skills/animation/animation-systems"
+    },
+    {
+      "id": "animejs",
+      "name": "animejs",
+      "category": "animation",
+      "group": "design",
+      "description": "|",
+      "path": "skills/animation/animejs"
+    },
+    {
       "id": "fixing-motion-performance",
       "name": "fixing-motion-performance",
       "category": "animation",
       "group": "design",
       "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
       "path": "skills/animation/fixing-motion-performance"
+    },
+    {
+      "id": "gsap",
+      "name": "gsap",
+      "category": "animation",
+      "group": "design",
+      "description": "Use when you need to add or debug professional web animations with GSAP (timelines, ScrollTrigger, stagger, transforms) in HTML/CSS/JS/React. Includes patterns for smooth motion, performance, and common pitfalls.",
+      "path": "skills/animation/gsap"
     },
     {
       "id": "threejs-animation",
@@ -47,6 +71,14 @@
       "group": "design",
       "description": "Core concepts of Three.js for building interactive 3D web experiences. Covers scene setup, cameras, renderers, and object management.",
       "path": "skills/animation/threejs-fundamentals"
+    },
+    {
+      "id": "vantajs",
+      "name": "vantajs",
+      "category": "animation",
+      "group": "design",
+      "description": "Use when adding animated WebGL background effects with Vanta.js (setup, parameters, resizing, performance, integration in React/Next.js).",
+      "path": "skills/animation/vantajs"
     },
     {
       "id": "design-system",
@@ -351,6 +383,14 @@
       "group": "design",
       "description": ">",
       "path": "skills/webdesign/fixing-metadata"
+    },
+    {
+      "id": "responsive-design",
+      "name": "responsive-design",
+      "category": "webdesign",
+      "group": "design",
+      "description": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior.",
+      "path": "skills/webdesign/responsive-design"
     },
     {
       "id": "web-design-guidelines",
