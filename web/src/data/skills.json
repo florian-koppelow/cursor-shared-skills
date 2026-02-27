@@ -33,6 +33,14 @@
       "path": "skills/animation/fixing-motion-performance"
     },
     {
+      "id": "threejs-fundamentals",
+      "name": "threejs-fundamentals",
+      "category": "animation",
+      "group": "design",
+      "description": "Core concepts of Three.js for building interactive 3D web experiences. Covers scene setup, cameras, renderers, and object management.",
+      "path": "skills/animation/threejs-fundamentals"
+    },
+    {
       "id": "design-system",
       "name": "design-system",
       "category": "design-systems",

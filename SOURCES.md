@@ -28,6 +28,7 @@ This repository consolidates skills from multiple open-source projects. Below is
 - `ui-ux-pro-max` → `skills/ui/` (source: nextlevelbuilder/ui-ux-pro-max-skill)
 - `wcag-audit-patterns` → `skills/accessibility/` (source: wshobson/agents)
 - `web-design-guidelines` → `skills/webdesign/` (source: vercel-labs/agent-skills)
+- `threejs-fundamentals` → `skills/animation/` (source: cloudai-x/threejs-skills via antigravity.codes)
 
 ### jwilger/agent-skills
 
