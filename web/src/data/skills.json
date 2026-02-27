@@ -249,6 +249,14 @@
       "path": "skills/illustration/canvas-design"
     },
     {
+      "id": "analytics-tracking",
+      "name": "analytics-tracking",
+      "category": "marketing",
+      "group": "other",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup.",
+      "path": "skills/marketing/analytics-tracking"
+    },
+    {
       "id": "marketing-psychology",
       "name": "marketing-psychology",
       "category": "marketing",
