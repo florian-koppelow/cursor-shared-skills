@@ -333,7 +333,7 @@
       "name": "web-design-guidelines",
       "category": "webdesign",
       "group": "design",
-      "description": "Review UI code for Web Interface Guidelines compliance. Audit design, accessibility, and UX against Vercel's best practices.",
+      "description": "Review UI code for Vercel Web Interface Guidelines compliance. Audit accessibility, forms, animation, typography, performance, navigation, and interaction patterns.",
       "path": "skills/webdesign/web-design-guidelines"
     },
     {
